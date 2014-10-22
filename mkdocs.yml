@@ -1,0 +1,11 @@
+site_name: Product Design
+theme: yeti
+theme_dir: custom
+pages:
+  - ['index.md', Home]
+  - ['canvas/dashboard-v1.md', 'Canvas', 'Dashboard v1.x']
+  - ['canvas/demo-v1.md', 'Canvas', 'Demo v1.x']
+  - ['framework/user-stories.md', 'Framework', 'User Stories']
+  - ['framework/user-personas.md', 'Framework', 'User Personas']
+  - ['framework/charts.md', 'Framework', 'Information Visualization']
+  - ['framework/product-canvas.md', 'Framework', 'Product Canvas']
