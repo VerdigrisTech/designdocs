@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-        <title>Demo v1.x - Product Design</title>
+        <title>Abode - Product Design</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -62,12 +62,12 @@
                             <a href="../dashboard-v1/">Dashboard v1.x</a>
                         </li>
                     
-                        <li class="active">
-                            <a href="./">Demo v1.x</a>
+                        <li >
+                            <a href="../demo-v1/">Demo v1.x</a>
                         </li>
                     
-                        <li >
-                            <a href="../abode/">Abode</a>
+                        <li class="active">
+                            <a href="./">Abode</a>
                         </li>
                     
                     </ul>
@@ -113,12 +113,12 @@
             <ul class="nav navbar-nav navbar-right">
                 
                 <li >
-                    <a rel="next" href="../dashboard-v1/">
+                    <a rel="next" href="../demo-v1/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../abode/">
+                    <a rel="prev" href="../../framework/ux-strategy/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -132,15 +132,9 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#device-demo-v1x">Device Demo v1.x</a></li>
+        <li class="main active"><a href="#abode">Abode</a></li>
         
             <li><a href="#overview">Overview</a></li>
-        
-            <li><a href="#canvas">Canvas</a></li>
-        
-            <li><a href="#process">Process</a></li>
-        
-            <li><a href="#usability-scenarios">Usability Scenarios</a></li>
         
             <li><a href="#references">References</a></li>
         
@@ -149,107 +143,33 @@
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="device-demo-v1x">Device Demo v1.x</h1>
+<h1 id="abode">Abode</h1>
 <blockquote>
-<p>Contributor(s): Vik Babu</p>
+<p>Contributor(s): Aiyana &amp; Vik</p>
 </blockquote>
 <h2 id="overview">Overview</h2>
 <h3 id="goals">Goals</h3>
 <ul>
-<li>Discover what information engages users in device level energy usage</li>
-<li>Design the UI for a dashboard that is intuitive and tells the device usage story</li>
+<li>To raise energy awareness in the home</li>
 </ul>
-<h3 id="audiences">Audiences</h3>
+<h3 id="scenarios">Scenarios</h3>
 <ul>
-<li>Expo Attendants</li>
-<li>Facilities Managers</li>
-<li>Building Users</li>
-<li>Professional Engineers</li>
-<li>Investors</li>
+<li>Informational Poster</li>
+<li>2-3 Scenarios</li>
+<li>Data Visualizations</li>
+<li>Inferences</li>
+<li>Journal Study</li>
+<li>Interview Study</li>
 </ul>
-<h2 id="canvas">Canvas</h2>
-<h3 id="problems">Problems</h3>
+<h3 id="personas-user-groups">Personas User Groups</h3>
 <ul>
-<li>Device level energy isn't available to facilities leading to low energy awareness</li>
-<li>Num devices can reach into 100s making usability unclear</li>
-<li>Device usage data may be inaccurate or incomplete</li>
-<li>Energy feedback is non-intuitive leading to no behavioral change</li>
-<li>User expectations of real time differ between users and product capabilities</li>
-</ul>
-<h3 id="unique-value-proposition">Unique Value Proposition</h3>
-<ul>
-<li>Building.ai gives users device level energy usage so they can make informed decisions about cutting back their energy usage</li>
-<li>~~Device usage leading to circuit breaking~~</li>
-</ul>
-<h3 id="solutions">Solutions</h3>
-<ul>
-<li>BUD provides realtime device level data in addition to building data</li>
-<li>building.ai reduces the complexity of such large streams of data into an actionable dashboard</li>
-<li>building.ai clearly acknowledges the data discrepencies and unknowns</li>
-<li>building.ai provides intuitive feedback to influence user behavior and awareness</li>
-<li>Dashboard clearly shows historical data and duration</li>
-</ul>
-<h3 id="constraints">Constraints</h3>
-<ul>
-<li>Device level granularity would be monstrous to store</li>
-<li>RAW Data demos 24hrs to showcase capabilities</li>
-<li>How do we snapshot or represent the archival data at some level of granularity</li>
-<li>Capturing what device interests people have</li>
-<li>Device usage by area raises energy awareness locally at the user level</li>
-<li>Define all attributes &amp; stack rank that gives a user sound proof</li>
-</ul>
-<h2 id="process">Process</h2>
-<p>We surveyed the internal team to produce a list of information relevant to device screens</p>
-<h3 id="data-attributes">Data Attributes</h3>
-<ul>
-<li>Panel</li>
-<li>Circuit</li>
-<li>Location</li>
-<li>Last State Change</li>
-<li>State Change Count</li>
-<li>Instantaneous Real Power</li>
-<li>Average Real Power</li>
-<li>Estimated Device Count</li>
-<li>Peak Device Power</li>
-<li>Time at Peak Device Power</li>
-<li>Lowest Power Draw</li>
-<li>Time at Lowest Power Draw</li>
-<li>Energy (Power Use of Time) <em>Daily, Hourly, Weekly</em></li>
-<li>Percent Time On of Time Specified</li>
-<li>On/Off</li>
-<li>Alternate State <em>Active, Standby, Peak</em></li>
-<li>End Use Type</li>
-<li>Delta's of All of the above</li>
-</ul>
-<h3 id="aggregated-behavioral-attributes">Aggregated Behavioral Attributes</h3>
-<ul>
-<li>Long Term Recommendations</li>
-<li>Short Term Recommendations</li>
-<li>Analamous Usage</li>
-<li>Delta Energy Use Over Time</li>
-<li>Location</li>
-<li>Carbon Counting</li>
-<li><em>Custom</em> Trends</li>
-<li>Device Alerts</li>
-</ul>
-<h3 id="assumptions">Assumptions</h3>
-<ol>
-<li>Proof of Realtime for User</li>
-<li>Value of Energy Awareness for Client</li>
-</ol>
-<h2 id="usability-scenarios">Usability Scenarios</h2>
-<ul>
-<li>What are the most important features to develop to engender specific emotional responses from users?</li>
+<li>Parents</li>
+<li>Teachers</li>
+<li>Scientists</li>
 </ul>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="http://bl.ocks.org/mbostock/4348373">Zoom Sunburst</a></li>
-<li><a href="http://buildingsdatabook.eren.doe.gov/TableView.aspx?table=3.1.5">USDE Device Categories</a></li>
-<li><a href="http://www.eia.gov/consumption/">US EIA</a></li>
-<li><a href="http://online.wsj.com/news/articles/SB10001424127887324886704579052883651889864">Ray Yun CMU Office Energy Dashboard Research</a></li>
-<li><a href="http://gcn.com/blogs/emerging-tech/2014/07/office-energy-consumption-dashboard.aspx">Office Energy Consumption Dashboard</a></li>
-<li><a href="http://www.ba-pirc.org/media/pdf/2008-HomeEnergy.pdf">Evaluating Energy Use Feedback Devices</a></li>
-<li><a href="http://www.powertakeoff.com/solutions/direct-energy-management/real-time-monitoring/">Power TakeOff</a></li>
+<li><a href="http://redd.csail.mit.edu/kolter-kddsust11.pdf">REDD Home Energy Disaggregation Research</a></li>
 </ul>
 </div>
         </div>
